@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C1D249266E315E00459AE6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D248266E315E00459AE6 /* APIClient.swift */; };
+		03C1D252266E3BF500459AE6 /* WatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D251266E3BF500459AE6 /* WatchListView.swift */; };
+		03C1D25A266E3C3C00459AE6 /* WatchListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D259266E3C3C00459AE6 /* WatchListPresenter.swift */; };
+		03C1D25F266E3C4C00459AE6 /* WatchListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D25E266E3C4C00459AE6 /* WatchListInteractor.swift */; };
+		03C1D268266E7DA200459AE6 /* WatchListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D267266E7DA200459AE6 /* WatchListModel.swift */; };
+		03C1D271266F12CC00459AE6 /* WatchListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D270266F12CC00459AE6 /* WatchListCell.swift */; };
+		03C1D293266F2A0E00459AE6 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D292266F2A0E00459AE6 /* Crypto.swift */; };
+		03C1D2A826708D2500459AE6 /* EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D2A726708D2500459AE6 /* EndEditing.swift */; };
 		03C40079266C97520098D369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C40078266C97520098D369 /* AppDelegate.swift */; };
 		03C4007B266C97520098D369 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C4007A266C97520098D369 /* SceneDelegate.swift */; };
 		03C4007D266C97520098D369 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C4007C266C97520098D369 /* ContentView.swift */; };
@@ -15,6 +23,9 @@
 		03C40085266C97550098D369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C40083266C97550098D369 /* LaunchScreen.storyboard */; };
 		03C40090266C97560098D369 /* CoinHako_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C4008F266C97560098D369 /* CoinHako_AssignmentTests.swift */; };
 		03C4009B266C97560098D369 /* CoinHako_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C4009A266C97560098D369 /* CoinHako_AssignmentUITests.swift */; };
+		CE9109D6D71FA9DB1E36CE5E /* Pods_CoinHako_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B867761A64EEFF4A9EFE3A7 /* Pods_CoinHako_Assignment.framework */; };
+		D3F856C6B25A7C69270AF340 /* Pods_CoinHako_Assignment_CoinHako_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080D31227C918695284DFFFB /* Pods_CoinHako_Assignment_CoinHako_AssignmentUITests.framework */; };
+		DF86F0F1F3D0311F17C66FB4 /* Pods_CoinHako_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2174E5BF137002B4B9EA1B /* Pods_CoinHako_AssignmentTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C1D248266E315E00459AE6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		03C1D251266E3BF500459AE6 /* WatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListView.swift; sourceTree = "<group>"; };
+		03C1D259266E3C3C00459AE6 /* WatchListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListPresenter.swift; sourceTree = "<group>"; };
+		03C1D25E266E3C4C00459AE6 /* WatchListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListInteractor.swift; sourceTree = "<group>"; };
+		03C1D267266E7DA200459AE6 /* WatchListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListModel.swift; sourceTree = "<group>"; };
+		03C1D270266F12CC00459AE6 /* WatchListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListCell.swift; sourceTree = "<group>"; };
+		03C1D292266F2A0E00459AE6 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		03C1D2A726708D2500459AE6 /* EndEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndEditing.swift; sourceTree = "<group>"; };
 		03C40075266C97520098D369 /* CoinHako_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinHako_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C40078266C97520098D369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C4007A266C97520098D369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,15 @@
 		03C40096266C97560098D369 /* CoinHako_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinHako_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C4009A266C97560098D369 /* CoinHako_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinHako_AssignmentUITests.swift; sourceTree = "<group>"; };
 		03C4009C266C97560098D369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080D31227C918695284DFFFB /* Pods_CoinHako_Assignment_CoinHako_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinHako_Assignment_CoinHako_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B867761A64EEFF4A9EFE3A7 /* Pods_CoinHako_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinHako_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AEA039671BD56A4B278B65 /* Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E2174E5BF137002B4B9EA1B /* Pods_CoinHako_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinHako_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36854AE0E3C1BBE4D8C0FE6 /* Pods-CoinHako_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinHako_Assignment.release.xcconfig"; path = "Target Support Files/Pods-CoinHako_Assignment/Pods-CoinHako_Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		BCE3D2E4DE08ECD4B0757459 /* Pods-CoinHako_AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinHako_AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-CoinHako_AssignmentTests/Pods-CoinHako_AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		E607486666A3204A99489499 /* Pods-CoinHako_Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinHako_Assignment.debug.xcconfig"; path = "Target Support Files/Pods-CoinHako_Assignment/Pods-CoinHako_Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		F05299D7D95BC92BDB2FB51C /* Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBCAC6D922C9AABF9D0F01EE /* Pods-CoinHako_AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinHako_AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-CoinHako_AssignmentTests/Pods-CoinHako_AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9109D6D71FA9DB1E36CE5E /* Pods_CoinHako_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF86F0F1F3D0311F17C66FB4 /* Pods_CoinHako_AssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F856C6B25A7C69270AF340 /* Pods_CoinHako_Assignment_CoinHako_AssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03C1D247266E315200459AE6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				03C1D248266E315E00459AE6 /* APIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		03C1D250266E3BDD00459AE6 /* WatchList */ = {
+			isa = PBXGroup;
+			children = (
+				03C1D251266E3BF500459AE6 /* WatchListView.swift */,
+				03C1D259266E3C3C00459AE6 /* WatchListPresenter.swift */,
+				03C1D25E266E3C4C00459AE6 /* WatchListInteractor.swift */,
+			);
+			path = WatchList;
+			sourceTree = "<group>";
+		};
+		03C1D266266E7D9300459AE6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				03C1D292266F2A0E00459AE6 /* Crypto.swift */,
+				03C1D267266E7DA200459AE6 /* WatchListModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		03C1D26F266F12B500459AE6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				03C1D270266F12CC00459AE6 /* WatchListCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		03C1D2A626708D0200459AE6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				03C1D2A726708D2500459AE6 /* EndEditing.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		03C4006C266C97520098D369 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +157,8 @@
 				03C4008E266C97560098D369 /* CoinHako_AssignmentTests */,
 				03C40099266C97560098D369 /* CoinHako_AssignmentUITests */,
 				03C40076266C97520098D369 /* Products */,
+				497C388D046CBF46005881AE /* Pods */,
+				6D47FBB8FEB0792AF328B7F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +175,11 @@
 		03C40077266C97520098D369 /* CoinHako_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				03C1D2A626708D0200459AE6 /* Util */,
+				03C1D26F266F12B500459AE6 /* CustomView */,
+				03C1D266266E7D9300459AE6 /* Entity */,
+				03C1D250266E3BDD00459AE6 /* WatchList */,
+				03C1D247266E315200459AE6 /* API */,
 				03C40078266C97520098D369 /* AppDelegate.swift */,
 				03C4007A266C97520098D369 /* SceneDelegate.swift */,
 				03C4007C266C97520098D369 /* ContentView.swift */,
@@ -136,6 +217,29 @@
 			path = CoinHako_AssignmentUITests;
 			sourceTree = "<group>";
 		};
+		497C388D046CBF46005881AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E607486666A3204A99489499 /* Pods-CoinHako_Assignment.debug.xcconfig */,
+				B36854AE0E3C1BBE4D8C0FE6 /* Pods-CoinHako_Assignment.release.xcconfig */,
+				61AEA039671BD56A4B278B65 /* Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.debug.xcconfig */,
+				F05299D7D95BC92BDB2FB51C /* Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.release.xcconfig */,
+				FBCAC6D922C9AABF9D0F01EE /* Pods-CoinHako_AssignmentTests.debug.xcconfig */,
+				BCE3D2E4DE08ECD4B0757459 /* Pods-CoinHako_AssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D47FBB8FEB0792AF328B7F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B867761A64EEFF4A9EFE3A7 /* Pods_CoinHako_Assignment.framework */,
+				080D31227C918695284DFFFB /* Pods_CoinHako_Assignment_CoinHako_AssignmentUITests.framework */,
+				9E2174E5BF137002B4B9EA1B /* Pods_CoinHako_AssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03C4009F266C97560098D369 /* Build configuration list for PBXNativeTarget "CoinHako_Assignment" */;
 			buildPhases = (
+				60B75508A70B69842BE56A4A /* [CP] Check Pods Manifest.lock */,
 				03C40071266C97520098D369 /* Sources */,
 				03C40072266C97520098D369 /* Frameworks */,
 				03C40073266C97520098D369 /* Resources */,
+				FEF03DB98C0730AB4D6D58E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03C400A2266C97560098D369 /* Build configuration list for PBXNativeTarget "CoinHako_AssignmentTests" */;
 			buildPhases = (
+				8907DDADF047885604EB05BD /* [CP] Check Pods Manifest.lock */,
 				03C40087266C97560098D369 /* Sources */,
 				03C40088266C97560098D369 /* Frameworks */,
 				03C40089266C97560098D369 /* Resources */,
+				77476282855DAF28C9118A84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03C400A5266C97560098D369 /* Build configuration list for PBXNativeTarget "CoinHako_AssignmentUITests" */;
 			buildPhases = (
+				DC75BD099DD1514703F35129 /* [CP] Check Pods Manifest.lock */,
 				03C40092266C97560098D369 /* Sources */,
 				03C40093266C97560098D369 /* Frameworks */,
 				03C40094266C97560098D369 /* Resources */,
+				90F60DD11000BA5E315FFE89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,14 +371,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60B75508A70B69842BE56A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinHako_Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77476282855DAF28C9118A84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinHako_AssignmentTests/Pods-CoinHako_AssignmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinHako_AssignmentTests/Pods-CoinHako_AssignmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoinHako_AssignmentTests/Pods-CoinHako_AssignmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8907DDADF047885604EB05BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinHako_AssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90F60DD11000BA5E315FFE89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC75BD099DD1514703F35129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinHako_Assignment-CoinHako_AssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF03DB98C0730AB4D6D58E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinHako_Assignment/Pods-CoinHako_Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinHako_Assignment/Pods-CoinHako_Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoinHako_Assignment/Pods-CoinHako_Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03C40071266C97520098D369 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				03C40079266C97520098D369 /* AppDelegate.swift in Sources */,
+				03C1D25F266E3C4C00459AE6 /* WatchListInteractor.swift in Sources */,
+				03C1D293266F2A0E00459AE6 /* Crypto.swift in Sources */,
 				03C4007B266C97520098D369 /* SceneDelegate.swift in Sources */,
+				03C1D249266E315E00459AE6 /* APIClient.swift in Sources */,
+				03C1D271266F12CC00459AE6 /* WatchListCell.swift in Sources */,
+				03C1D2A826708D2500459AE6 /* EndEditing.swift in Sources */,
+				03C1D25A266E3C3C00459AE6 /* WatchListPresenter.swift in Sources */,
+				03C1D252266E3BF500459AE6 /* WatchListView.swift in Sources */,
 				03C4007D266C97520098D369 /* ContentView.swift in Sources */,
+				03C1D268266E7DA200459AE6 /* WatchListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +671,7 @@
 		};
 		03C400A0266C97560098D369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E607486666A3204A99489499 /* Pods-CoinHako_Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +679,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CoinHako_Assignment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoinHako_Assignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +693,7 @@
 		};
 		03C400A1266C97560098D369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36854AE0E3C1BBE4D8C0FE6 /* Pods-CoinHako_Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +701,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CoinHako_Assignment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoinHako_Assignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +715,7 @@
 		};
 		03C400A3266C97560098D369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCAC6D922C9AABF9D0F01EE /* Pods-CoinHako_AssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +737,7 @@
 		};
 		03C400A4266C97560098D369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE3D2E4DE08ECD4B0757459 /* Pods-CoinHako_AssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +759,7 @@
 		};
 		03C400A6266C97560098D369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AEA039671BD56A4B278B65 /* Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +779,7 @@
 		};
 		03C400A7266C97560098D369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05299D7D95BC92BDB2FB51C /* Pods-CoinHako_Assignment-CoinHako_AssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

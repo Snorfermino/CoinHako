@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var model: WatchListModel
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+           
+                WatchListView(presenter: WatchListPresenter(interactor: WatchListInteractor(model: model)))
+                    
+        }.resignKeyboardOnDragGesture()
+        .colorScheme(.dark)
+        .onAppear {
+            model.startUpdatePrice()
+        }
     }
 }
 
